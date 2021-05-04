@@ -124,7 +124,7 @@ services:
       - MYSQL_USER=bookstack
       - MYSQL_PASSWORD=<yourdbpass>
     volumes:
-      - /path/to/data:/config
+      - /path/to/database:/config
     restart: unless-stopped
 
 ```
